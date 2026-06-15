@@ -1,0 +1,32 @@
+# Day 01 - Project Setup and Data Collection
+
+## Objective
+
+To set up the project environment and collect the dataset for analysis.
+
+## Tasks Completed
+
+1. Created GitHub repository for the project.
+2. Set up project folder structure.
+3. Downloaded the Space Missions dataset.
+4. Loaded the dataset using Pandas.
+5. Explored dataset columns and data types.
+
+## Observations
+
+* Dataset contains information about space missions, companies, dates, locations, and mission status.
+* Some columns contain missing values.
+* Data cleaning will be required before analysis.
+
+## Next Steps
+
+* Remove duplicates.
+* Handle missing values.
+* Clean the Price column.
+* Prepare data for visualization.
+
+## Team Members
+
+* Member 1: Data Collection
+* Member 2: Project Setup
+* Member 3: Documentation
