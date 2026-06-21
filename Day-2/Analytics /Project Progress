@@ -1,0 +1,27 @@
+## Project Progress - Day 2
+
+### Analytics Completed
+
+* Top Launch Companies Analysis
+* Mission Success vs Failure Analysis
+* Rocket Status Distribution
+* Launch Trend Analysis
+* Country-wise Launch Analysis
+* Mission Cost Distribution
+* KPI Statistics
+
+### Key Insights
+
+* Identified top space organizations by number of launches.
+* Analyzed mission success rates.
+* Examined global launch activity by country.
+* Studied launch trends across years.
+* Investigated mission cost distribution patterns.
+
+### Technologies Used
+
+* Python
+* Pandas
+* Matplotlib
+* NumPy
+Project
