@@ -1,0 +1,59 @@
+### 🚀 Project Progress - Day 3
+
+### Machine Learning Pipeline Completed
+
+This phase focused on transforming the cleaned dataset into a machine-learning-ready format and building a predictive model for mission success analysis.
+
+### Features Implemented
+
+✅ Feature Engineering
+
+- Extracted country information from launch locations
+- Handled missing values in mission cost data
+- Converted categorical variables into numerical values using Label Encoding
+
+✅ Machine Learning Model
+
+- Random Forest Classifier
+- Train-Test Split (80:20)
+- Mission Success Prediction
+
+✅ Model Evaluation
+
+- Accuracy Score
+- Confusion Matrix
+- Classification Report
+- Feature Importance Analysis
+
+✅ Model Persistence
+
+- Saved trained model using Joblib
+- Saved label encoders for future dashboard predictions
+
+### Technologies Used
+
+- Python
+- Pandas
+- Scikit-Learn
+- Joblib
+- Matplotlib
+
+### Generated Files
+
+```text
+data/
+└── ml_ready_data.csv
+
+model/
+├── mission_model.pkl
+└── encoders.pkl
+
+images/
+├── confusion_matrix.png
+└── feature_importance.png
+
+src/
+├── feature_engineering.py
+├── train_model.py
+├── model_evaluation.py
+└── prediction.py
