@@ -90,9 +90,10 @@ def load_data():
         .str.strip()
     )
 
+    # Replace the old Date conversion with this
     df["Date"] = pd.to_datetime(
         df["Date"],
-        format="%d-%m-%Y",
+        format="%Y-%m-%d",
         errors="coerce"
     )
 
