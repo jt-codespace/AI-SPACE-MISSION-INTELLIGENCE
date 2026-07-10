@@ -3,7 +3,11 @@ import matplotlib.pylab as plt
 
 df = pd.read_csv("BASE_DIR/data/cleaned_space_missions.csv")
 
-df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
+df["Date"] = pd.to_datetime(
+    df["Date"],
+    format="%Y-%m-%d",
+    errors="coerce"
+)     
 
 df["Year"] = df["Date"].dt.year
 
