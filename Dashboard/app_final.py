@@ -80,7 +80,7 @@ with open(css_path) as f:
 def load_data():
 
     df = pd.read_csv(
-        "data/cleaned_space_missions.csv"
+        BASE_DIR / "data" / "cleaned_space_missions.csv"
     )
 
     df["Country"] = (
@@ -103,11 +103,11 @@ def load_data():
 df = load_data()
 
 model = joblib.load(
-    "model/mission_model.pkl"
+    BASE_DIR / "model" / "mission_model.pkl"
 )
 
 encoders = joblib.load(
-    "model/encoders.pkl"
+    BASE_DIR / "model" / "encoders.pkl"
 )
 
 if st.button("☰ Toggle Sidebar"):
