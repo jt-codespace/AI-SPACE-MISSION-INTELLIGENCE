@@ -1,0 +1,23 @@
+🚀 AI Space Mission Intelligence Dashboard
+
+An interactive AI-powered dashboard built with Python and Streamlit to analyze historical space missions. 
+The project provides mission analytics, interactive visualizations, filtering options, and a machine learning model to predict mission success. 
+Designed with a futuristic space-themed UI using custom CSS.
+
+Tech Stack:
+• Python
+• Streamlit
+• Pandas
+• Plotly
+• Scikit-learn
+• Joblib
+• HTML & CSS
+
+Features:
+✔ Interactive Dashboard
+✔ Mission Success Prediction
+✔ Data Visualization
+✔ KPI Metrics
+✔ Country & Company Filters
+✔ Downloadable Dataset
+✔ Space-Themed Responsive UI
