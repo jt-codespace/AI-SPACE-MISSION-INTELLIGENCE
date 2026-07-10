@@ -28,11 +28,7 @@ An interactive AI-powered dashboard for analyzing historical space missions, vis
 - Git & GitHub
 
 ---
+👩‍💻 Developer
 
-## 🚀 Run Locally
-
-```bash
-git clone https://github.com/your-username/your-repository.git
-cd Dashboard
-pip install -r requirements.txt
-streamlit run app_final.py
+Janvi Tailor
+⭐ If you found this project interesting, consider giving it a star!
